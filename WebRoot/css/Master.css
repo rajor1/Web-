@@ -1,0 +1,84 @@
+body {color:#363636; font-size:12px; margin:0px; font-family:宋体}
+a,a:visited{ color:#363636; text-decoration:none}
+a:hover{ color:Red}
+#main{ width:1000px; margin:0px auto; background:url(../images/cbg.jpg); overflow:hidden}
+#line{ width:1000px; margin:0px auto; color:#F00; height:10px;margin-bottom:5px}
+#left{ width:220px; float:left}
+#right{ width:770px; float:left; margin-left:10px}
+#foot{ background-image:url(../images/1285557024.jpg); height:100px; background-repeat:repeat-x; width:1000px; margin:0px auto; color:Gray; text-align:center; line-height:23px; border:solid 1px white}
+#foot div{ margin-top:50px}
+ul{ list-style:none; margin:0px; padding:0px}
+a img{ border-width:0px}
+#map{ width:728px; height:36px; background:url(../images/mapbg.jpg); margin:0px auto; margin-bottom:20px}
+#map span{ margin-left:50px; margin-top:10px; display:inline-block}
+#main_text{ width:700px; margin:0px auto; margin-bottom:20px; line-height:23px}
+
+/*菜单*/
+#top{background-image:url(../images/logo.jpg) ;width:1000px; height:200px; text-align:center;margin-top:10px; }
+#topmain{ width:1000px; margin:0px auto; overflow:hidden}
+#logo{width:600px; height:47px; margin-top:25px; float:left}
+#topr{ text-align:right; float:right;}
+#topr a{ margin-left:10px; cursor:pointer}
+.menu{
+font-family:"微软雅黑"; 
+width:1000px;
+height:30px;
+margin-top:50px;
+}
+.menu ul{
+padding:0; 
+margin:0;
+list-style-type: none;}
+.menu ul li{
+float:left; 
+position:relative;}
+.menu ul li a, .menu ul li a:visited{
+display:block; 
+text-align:center; 
+text-decoration:none; 
+width:141px; 
+height:30px; 
+color:#FFF; 
+border:1px solid #fff;
+border-width:1px 1px 0 0;
+background:url(../images/title_bg.jpg); 
+line-height:30px; 
+font-size:15px;}
+.menu ul li ul{
+display: none;
+z-index:5;}
+.menu ul li:hover a{
+color:#fff; 
+background:#b3ab79;}
+.menu ul li:hover ul{
+display:block; 
+position:absolute; 
+top:31px; 
+left:0; 
+width:105px;}
+.menu ul li:hover ul li a {
+display:block; 
+background:#faeec7; 
+color:#000;}
+.menu ul li:hover ul li a:hover{
+background:#dfc184; 
+color:#000;}
+
+
+/*跳图动图*/
+#topimg{ width:1000px; margin:0px auto}
+#flashcontent{ width:1000px; margin:0px; padding:0px}
+
+/*新闻明细，简介内容*/
+#content{ width:700px; margin:0px auto; line-height:23px; text-align:left; margin-bottom:20px; min-height:400px}
+
+
+/*添加样式*/
+#addtable {width:100%;border-collapse:collapse;background:url(../images/gouwu.jpg) no-repeat;}
+#addtable td {height:30px; border-collapse:collapse;font-family: Arial, Helvetica, sans-serif;}
+.left{width:100px;text-align:center; vertical-align:middle; color:black; font-size:18px;}
+.right{text-align:left }
+.right input,.right select,.right textarea{ margin:10px}
+
+#foot-img{ width:1000px; height:230px;background:url(../images/5.jpg)}
+
